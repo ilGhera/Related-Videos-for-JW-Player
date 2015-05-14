@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Releted Videos for JW Player\n"
+"POT-Creation-Date: 2015-04-22 14:50+0100\n"
+"PO-Revision-Date: 2015-04-22 14:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: Logic Image <andrea.gherardi@logicimage.it>\n"
+"Language: ITA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /applications/MAMP/htdocs/flairvideo/www.flairvideo."
+"net/wp-content/plugins/related-videos-for-jwplayer\n"
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-admin-settings.php:42
+msgid "Related Videos for JW Player"
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-admin-settings.php:43
+msgid ""
+"If you're using <strong>JW Player</strong> on your site, you probably know "
+"<strong><a href=\"http://support.JW Player.com/customer/portal/"
+"articles/1409745-display-related-videos\" target=\"_blank\">Related Videos</"
+"a></strong>, a free plugin that allows you to show more contents to the "
+"users in a beautifull and simple layout."
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-admin-settings.php:44
+msgid ""
+"<strong>Related Videos for JW Player</strong> will creates the correct xml "
+"for each category, so you'll be able to show related contents dynamically."
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-admin-settings.php:45
+msgid "Select how to get the video thumbnail from your posts."
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-admin-settings.php:49
+msgid "In your JW Player code, you'll have something like that:"
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-admin-settings.php:58
+msgid "And that's the result:"
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-form.php:38
+msgid "Featured image"
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-form.php:43
+msgid "Custom field"
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-form.php:51
+msgid "Custom field name"
+msgstr ""
+
+#: /applications/MAMP/htdocs/flairvideo/www.flairvideo.net/wp-content/plugins/related-videos-for-jwplayer/includes/rvjwp-form.php:53
+msgid "Save chages"
+msgstr ""

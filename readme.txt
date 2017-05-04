@@ -2,7 +2,8 @@
 Contributors: ghera74, logicimage
 Tags: Related posts, related videos, videos, player, JW Player
 Requires at least: 3.0
-Tested up to: 4.1.2
+Tested up to: 4.3
+Stable tag: 1.1
 License: GPL 2
 
 It creates the feed required from "Related Videos" add-on for JW Player, one for each category. 
@@ -65,4 +66,5 @@ Add this url to your JW Player code<br>
 3. Related Videos for JW Player - result
 
 == Changelog ==
+1.1 - Bugs fix and, small text changes.<br>
 1.0 - First release.

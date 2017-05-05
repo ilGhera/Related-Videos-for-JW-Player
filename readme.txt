@@ -60,14 +60,11 @@ Once Activated, go to **Settings/ Related Videos for JW Player** menu and set yo
 * Copy and past the generated snippet into your JW Player video code.
 
 
-**What's the next step?**<br>
-Add this url to your JW Player code<br>
-<pre>http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed</pre>
-
 == Screenshots ==
-1. Related Videos for JW Player - option 1
-2. Related Videos for JW Player - option 2
-3. Related Videos for JW Player - result
+1. Related Videos for JW Player - Result
+2. Related Videos for JW Player - Options 1
+3. Related Videos for JW Player - Options 2
+
 
 == Changelog ==
 

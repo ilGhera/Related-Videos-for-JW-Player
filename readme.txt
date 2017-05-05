@@ -7,57 +7,60 @@ Stable tag: 1.2.0
 License: GPLv2
 
 
-It creates the feed required from "Related Videos" add-on for JW Player, one for each category. 
+It creates the feed required from "Related Videos" add-on for JW Player, one for each Wordpress category. 
 
 == Description ==
+
 If you're using JW Player on your site, you probably know Related Videos, a free add-on that allows you to show more contents to the users in a beautifull and simple layout.<br>
 Related Videos for JW Player will creates the correct xml for each category, so you'll be able to show related contents dynamically.<br>
-Go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences.<br>
-<strong></strong>
-That's the url of your category feed:
-<pre>http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed</pre>
-In your JW Player code, you'll have something like that:
+Go to **Settings/ Related Videos for JW Player** menu and set you preferences.<br>
+
+This is block of code example generate by the plugin.
 <pre>
-'related-1': {
-   'file': 'http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed',
+'related': {
+   'file': 'http://yoursite.com/category/blog/?feed=related-feed',
    'heading': 'More videos!',
    'onclick': 'link',
-   'dimensions': '210x161'
 } 
 </pre>
 
+
 == Installation ==
-<strong>From your WordPress dashboard</strong>
-<ul>
-<li>Visit 'Plugins > Add New'</li>
-<li>Search for 'Related Videos for JW Player' and download it.</li>
-<li>Activate Related Videos for JW Player from your Plugins page.</li>
-<li>Once Activated, go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences.</li>
-</ul>
-<strong>From WordPress.org</strong>
-<ul>
-<li>Download Related Videos for JW Player</li>
-<li>Upload the 'related-videos-for-jwplayer' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)</li>
-<li>Activate Related Videos for JW Player from your Plugins page.</li>
-<li>Once Activated, go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences.</li>
-</ul>
+
+**From your WordPress dashboard**
+
+* Visit 'Plugins > Add New'
+* Search for 'Related Videos for JW Player' and download it.
+* Activate Related Videos for JW Player from your Plugins page.
+* Once Activated, go to **Settings/ Related Videos for JW Player** menu and set you preferences.
+
+**From WordPress.org**
+
+* Download Related Videos for JW Player
+* Upload the 'related-videos-for-jwplayer' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
+* Activate Related Videos for JW Player from your Plugins page.
+* Once Activated, go to **Settings/ Related Videos for JW Player** menu and set you preferences.
+
 
 == Frequently Asked Questions ==
-<strong>Where can I find informations about Related Videos for JW Player?</strong><br>
-Go to <a href="http://support.jwplayer.com/customer/portal/articles/1409745-display-related-videos" target="_blanc">http://support.jwplayer.com/customer/portal/articles/1409745-display-related-videos</a><br>
 
-<strong>What Related Videos for JW Player does?</strong><br>
-It creates the feed required from "Related Videos" plugin of JWPlayer,  one for each category, so you'll be able to show related contents dynamically.<br>
+**Where can I find informations about Related Videos for JW Player?**<br>
+Go to <a href="https://support.jwplayer.com/customer/portal/articles/1483102#fndtn-dashboard" target="_blanc">https://support.jwplayer.com/customer/portal/articles/1483102#fndtn-dashboard</a><br>
 
-<strong>What have I to do after the installation?</strong><br>
-First, you have to set how the plugin has to catch the video images of your wordpress posts. 
-Go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences. 
-<ul>
-<li>Featured image</li>
-<li>Custom field (specifing the key)</li>
-</ul>
+**What Related Videos for JW Player does?**<br>
+It creates the feed required from "Related Videos" plugin of JWPlayer, one for each category, so you'll be able to show related contents dynamically.<br>
 
-<strong>What's the next step?</strong><br>
+**What have I to do after the installation?**<br>
+Once Activated, go to **Settings/ Related Videos for JW Player** menu and set you preferences.
+
+* Chose how to get the images of your Related videos (featured image or custom field).
+* Select the Wordpress category.
+* Add your a custom heading.
+* Save the options.
+* Copy and past the generated snippet into your JW Player video code.
+
+
+**What's the next step?**<br>
 Add this url to your JW Player code<br>
 <pre>http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed</pre>
 
@@ -67,4 +70,15 @@ Add this url to your JW Player code<br>
 3. Related Videos for JW Player - result
 
 == Changelog ==
+
+= 1.2.0 =
+Release Date: 5 May 2017
+
+* Enhancement: The code snippet is now generate dinamically.
+* Enhancement: Added category field
+* Enhancement: Added heading field
+* Enhancement: Added resources in sidebar
+
+1.1 - Small fix.
+
 1.0 - First release.

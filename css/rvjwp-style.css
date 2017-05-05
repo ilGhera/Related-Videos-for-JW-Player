@@ -1,3 +1,4 @@
+
 /*
 *
 * RELATED VIDEOS FOR JWPLAYER - STYLE
@@ -5,16 +6,13 @@
 */
 
 pre {
-	background: #333;
+	background: #f7f7f9;
 	display: inline-block;
-	padding: 10px;
-	color: yellowgreen;
-	border: 5px solid #fff;
+	padding: 20px;
+	color: #333;
+	border: 1px solid #e1e1e8;
+	text-shadow: 0 1px white;
 	max-width: 95%;
-}
-
-span {
-	color: #fff;
 }
 
 form {
@@ -41,58 +39,3 @@ form {
 img.rvjwp-image {
 	border: 5px solid #fff;
 }
-
-/*.wrap-left {
-	float: left;
-	width: 70%;
-}
-
-.wrap-left img {
-	max-width: 100%;
-}
-
-.wrap-right {
-	float: left;
-	width: 30%;
-}
-
-#premium-banner {
-	width: 90%;
-	padding: 3.8rem 5% 0;
-	color: #777;
-}
-
-#premium-banner  h3 a {
-	line-height: 1.6rem;
-	text-decoration: none;
-}
-
-#premium-banner img {
-	max-width: 100%;
-}
-
-#premium-banner ul {
-	list-style: disc inside;
-}
-
-.premium-button {
-	padding: 0.844em 1.125em;
-	color: #F8F8F9;
-	font-weight: 600;
-	background: #53A1B8 none repeat scroll 0% 0%;
-	border-radius: 0.201em;
-	border: 0px none;
-	transition: all 0.238s ease 0s;
-	text-decoration: none;
-	display: inline-block;
-	margin-top: 1rem;
-}
-
-.premium-button:hover {
-	text-decoration: none;
-	-webkit-box-shadow: inset 0 -5em 0 0 rgba(0, 0, 0, 0.1);
-	box-shadow: inset 0 -5em 0 0 rgba(0, 0, 0, 0.1);
-	color: #F8F8F9;
-}
-
-*/

@@ -1,12 +1,15 @@
 <?php
-/*
-Plugin Name: Related Videos for JW Player
-Plugin URI: www.logicimage.it
-Description: It creates the feed required from "Related Videos" add-on for JW Player, one for each category. That's the url to use in your JW Player code: http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed 
-Author: Andrea Gherardi
-Version: 1.1
-Author URI: www.logicimage.it
-*/
+/**
+ * Plugin Name: Related Videos for JW Player
+ * Plugin URI: https://www.ilghera.com/product/related-videos-for-jw-player/
+ * Description: It creates the feed required from "Related Videos" add-on for JW Player, one for each category. This is the url to use in your JW Player code: http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed 
+ * Author: ilGhera
+ * Version: 1.2.0
+ * Author URI: http://ilghera.com 
+ * Requires at least: 4.0
+ * Tested up to: 4.7.4
+ */
+
 
 //FILE CALL
 include( plugin_dir_path( __FILE__ ) . 'includes/rvjwp-admin-settings.php');

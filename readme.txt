@@ -15,7 +15,7 @@ If you're using JW Player on your site, you probably know Related Videos, a free
 Related Videos for JW Player will creates the correct xml for each category, so you'll be able to show related contents dynamically.<br>
 Go to **Settings/ Related Videos for JW Player** menu and set you preferences.<br>
 
-This is block of code example generate by the plugin.
+This block of code is an example of what  the plugin generates.
 <pre>
 'related': {
    'file': 'http://yoursite.com/category/blog/?feed=related-feed',
